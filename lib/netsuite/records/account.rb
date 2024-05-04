@@ -15,6 +15,7 @@ module NetSuite
       record_refs :billable_expenses_acct, :category1099misc, :currency, :deferral_acct, :department, :klass, :location, :parent
 
       field :subsidiary_list, RecordRefList
+      field :custom_field_list, CustomFieldList
 
       attr_reader :internal_id
       attr_accessor :external_id
